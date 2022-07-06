@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communication Application</title>
+    <link rel="stylesheet" href="../Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Assets/css/mainPage.css">
+    <link rel="stylesheet" href="../Assets/css/main.css">
+</head>
+
+<body>
+    <div class="container-fluid chatPage ">
+        <section>
+            <ul class="nav nav-tabs navBar text-center">
+                <li class="nav-item active">
+                    <a class="nav-link " href="../mainPages/chats.html" aria-current="page">Group Chat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../mainPages/user-list.html">Manage users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../mainPages/upload-list.html">Manage Documents</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../loginPages/logout.html">Logout</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="mt-4">
+
+            <div class="text-center">Group Chat</div>
+            <div class="chatCloseBtn">
+                <button class="btn-close"></button>
+            </div>
+
+        </section>
+        <section class="mt-4 chatBody">
+            <!-- <div class="row">
+                <div class="col-md-3 chatTime text-left">
+                    <ul>
+                        <li>[2013-01-27 01:00:16]</li>
+                        <li> [2013-01-27 01:05:22]</li>
+                        <li>[2013-01-27 01:11:14]</li>
+                        <li> [2013-01-27 02:11;35]</li>
+                    </ul>
+                </div>
+                <div class="chatMessage col-md-9 ">
+                    <ul>
+                        <li>Text User: Lorem ipsum dolor sit amet,</li>
+                        <li>Text User: consetetur sadipscing elitr, sed diam nonumy eirmod
+                        </li>
+                        <li>Anne Hunter: tempor invidunt ut labore et dolore magna
+                        </li>
+                        <li>Jack Washk: aliquyam erat, sed diam voluptua. At vero eos et</li>
+                    </ul>
+                </div>
+            </div> -->
+            <table>
+                <tr>
+                    <td>[2013-01-27 01:00:16]</td>
+                    <td>Text User: Lorem ipsum dolor sit amet,</td>
+                </tr>
+                <tr>
+                    <td>[2013-01-27 01:05:22]</td>
+                    <td>Text User: consetetur sadipscing elitr, sed diam nonumy eirmod</td>
+                </tr>
+                <tr>
+                    <td>[2013-01-27 01:11:14]</td>
+                    <td>Anne Hunter: tempor invidunt ut labore et dolore magna</td>
+                </tr>
+                <tr>
+                    <td>[2013-01-27 02:11;35]</td>
+                    <td>Jack Washk: aliquyam erat, sed diam voluptua. At vero eos et</td>
+                </tr>
+            </table>
+
+
+        </section>
+        <section class="mt-4 chatFooter">
+            <div class="row mt-2 mb-1">
+                <div class="col-md-2 "> Anne Hunter</div>
+                <div class="col-md-7">
+                    <input type="text" value="I am Good" />
+                </div>
+                <div class="col-md-2 grpBtn"><button class="btn whiteBtn ">Send</button> <button class="btn whiteBtn  ">Refresh</button> </div>
+
+            </div>
+        </section>
+    </div>
+    <script src="../Assets/js/jquery.min.js "></script>
+    <script src="../Assets/js/bootstrap.min.js "></script>
+    <script src="../Assets/js/popper.min.js"></script>
+</body>
+
+</html>
